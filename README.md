@@ -5,7 +5,7 @@
 - [Kubernetes](https://kubernetes.io/docs/concepts/overview/#why-you-need-kubernetes-and-what-can-it-do) Kubernetes abstracts away many of the complexities involved in managing containerized applications at scale. It enables efficient resource utilization, automatic scaling, rolling updates, self-healing, and service discovery. Kubernetes has become the de facto standard for container orchestration in cloud-native application development, making it easier to deploy and manage complex microservices architectures and applications in production environments.
 
 ## We are going to set up CI/CD pipeline with the help of GitHub Jenkins Maven, and Tomcat.
-![CompleteCICDProject!](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7XSkEENMpQu7UZNBG5lsdQ.jpeg)) 
+![CompleteCICDProject!](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7XSkEENMpQu7UZNBG5lsdQ.jpeg)
 
 ## Setup CI/CD with Github, Jenkins, Maven and Tomcat
 1) Setup Jenkins
