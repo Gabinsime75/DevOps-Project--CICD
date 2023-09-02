@@ -1,7 +1,13 @@
 cd /opt
 wget https://dlcdn.apache.org/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz
+# This command will download the tarball containing Apache Maven 3.9.4 to your current directory. 
+
 tar -xvzf apache-maven-3.9.4-bin.tar.gz
+# Extracts the downloaded tarball.
+
 mv apache-maven-3.9.4 maven
+# Move the extracted directory "apache-maven-3.9.4" to maven
+
 cd maven/bin
 ./mvn -v
 cd ~
