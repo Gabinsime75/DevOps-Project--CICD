@@ -1,3 +1,3 @@
-## DevOps Project for Beginners   
+# We are going to build and deploy our application on the tomcat server. 
 
-[![Image](https://www.udemy.com/course/valaxy-devops/?referralCode=8147A5CF4C8C7D9E253F)
+![CompleteCICDProject!](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7XSkEENMpQu7UZNBG5lsdQ.jpeg) 
