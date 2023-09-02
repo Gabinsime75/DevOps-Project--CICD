@@ -10,7 +10,7 @@
 
 For this, we are going to set up CI/CD pipeline with the help of GitHub Jenkins Maven, and Tomcat.
 
-# Setup CI/CD with Github, Jenkins, Maven and Tomcat
+## Setup CI/CD with Github, Jenkins, Maven and Tomcat
 1) Setup Jenkins
 2) Setup and configure Maven and Git
 3) Setup Tomcat Server
