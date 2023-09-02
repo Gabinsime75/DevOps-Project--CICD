@@ -6,7 +6,9 @@
 - [Git](https://git-scm.com/) Git will be used to manage our application source code.
 - [Jenkins](https://www.jenkins.io/) Jenkins is an open source automation CI tool which enables developers around the world to reliably build, test, and deploy their software
 - [Maven](https://maven.apache.org/) Maven will be used for the application packaging and building including running unit test cases
-- [Tomcat]([https://git-scm.com/](https://tomcat.apache.org/tomcat-8.5-doc/introduction.html)) Apache Tomcat, is an open-source web server and servlet container developed by the Apache Software Foundation. It is one of the most widely used application servers for deploying and running Java-based web applications, particularly Java Servlets and JavaServer Pages (JSP)
+- [Tomcat](https://maven.apache.org/) Maven will be used for the application packaging and building including running unit test cases
+- 
+- [Tomcat]([https://git-scm.com/](https://tomcat.apache.org/tomcat-8.5-doc/introduction.html) Apache Tomcat, is an open-source web server and servlet container developed by the Apache Software Foundation. It is one of the most widely used application servers for deploying and running Java-based web applications, particularly Java Servlets and JavaServer Pages (JSP)
 
 For this, we are going to set up CI/CD pipeline with the help of GitHub Jenkins Maven, and Tomcat.
 
