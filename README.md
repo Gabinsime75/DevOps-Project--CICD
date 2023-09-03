@@ -1,7 +1,8 @@
 # During this DevOps project, we are going to deploy our application on three different kind of target environment:
 ## 1. Tomcat Server
 ## 2. Docker Container
-## 3. Kubernetes
+## 3. Docker Container with the help of Ansible
+## 4. Kubernetes
 
 # DevOps Project — CI/CD -1: Build and deploy the application on Tomcat server.
 ![CompleteCICDProject!](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7XSkEENMpQu7UZNBG5lsdQ.jpeg) 
