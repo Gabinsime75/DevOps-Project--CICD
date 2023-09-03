@@ -65,9 +65,18 @@ So:
 # DevOps Project — CI/CD -4: Build and deploy the application on Kubernetes
 ![CompleteCICDProject!](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*FL0KIKHghcOb3OB2qJVSdw.jpeg) 
 In the previous Step (DevOps Project — CI/CD -3), we were able to deploy the application on a Docker container successfully.
+However, in case the Docker container goes down, there is no way to recover.
+To solve that problem,
 In this Step, we're going to build on the previous environment, But instead of Docker host, we are going to deploy the 
-applications on a Kubernetes Cluster.
+applications on a Kubernetes Cluster. We are going to deploy it as a pod on our Kubernetes environment.
 
+## Setup CI/CD with Github, Jenkins, Maven, Ansible and Kubernetes
+1) Setup Kubernetes (EKS)
+2) Write pod, service, and deployment manifest files
+3) Integrate Kubernetes with Ansible
+4) Write Ansible playbooks to create deployment and service
+5) Integrate Ansible with Jenkins
+6) Create a CI/CD job to build code on Ansible and deploy it on Kubernetes Cluster
 
 
 
