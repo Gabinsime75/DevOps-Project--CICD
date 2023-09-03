@@ -1,4 +1,7 @@
-# During this DevOps project, we are going to deploy our application on three different kind of target environment:-
+# During this DevOps project, we are going to deploy our application on three different kind of target environment:
+## 1. Tomcat Server
+## 2. Docker Container
+## 3. Kubernetes
 
 
 
