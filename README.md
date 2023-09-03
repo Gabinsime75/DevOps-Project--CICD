@@ -21,3 +21,15 @@ For this, we are going to set up CI/CD pipeline with the help of GitHub Jenkins 
 4) Integrate Github, Maven, Tomcat Server with Jenkins
 5) Create CI/CD job
 6) Test the deployment
+
+# DevOps Project — CI/CD -2: Build and deploy the application on Docker Container
+![CompleteCICDProject!](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*wOB5ogt2NZDrl1NK4ZUD4w.jpeg) 
+For this, we are going to set up CI/CD pipeline with the help of GitHub Jenkins Maven, and Docker.
+
+## Setup CI/CD with Github, Jenkins, Maven and Docker
+1) Setup Docker environment
+2) Write Dockerfile
+3) Create an image and container on docker host
+4) Integrate docker host with Jenkins
+5) Create CI/CD job to build and deploy on a container
+6) Test the deployment
