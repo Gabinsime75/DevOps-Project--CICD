@@ -45,7 +45,7 @@ In the previous Step (DevOps Project — CI/CD -2), We setup Jenkins to fetch th
 repository and initiate a build using Maven, creating a docker image and subsequently deploying this docker container 
 onto a docker host. In that case, we used Jenkins as a tool for both building and deploying applications. 
 
-However, in this Step, we are going to use Ansible as a deployment tool, so that Jenkins only need not to do the 
+However, in this Step, we are going to use Ansible as a deployment tool, so that Jenkins only need to do the 
 administrative kind of activities.
 So:
   * Jenkins is going to take the code from GitHub and build artifacts and copy those artifacts onto Ansible server.
