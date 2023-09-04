@@ -63,26 +63,6 @@ So:
 5) Integrate Ansible with Jenkins
 6) Create a CI/CD job to build code on Ansible and deploy it on Docker container
 
-1) Setting up the ansible server
-   * Create an ec2 instance (Amazon Linux 2, t2.micro, Security group: open 22 and 8080) and connect to the terminal
-   * Setup a secure remote access to the server:
-     sudo su -
-     useradd ansadmin
-     passwd ansadmin
-     vim /etc/ssh/sshd_config  ( PasswordAuthentication yes )
-     visudo                    ( ansadmin        ALL=(ALL)       NOPASSWD: ALL )
-     systemctl restart sshd
-     sudo su - ansadmin
-     ssh-keygen
-     sudo su -
-     amazon-linux-extras install ansible2 -y
-     python --version
-     ansible --version
-   2) Integrate Docker host with Ansible
-
-
-
-
 # DevOps Project — CI/CD -4: Build and deploy the application on Kubernetes
 ![CompleteCICDProject!](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*FL0KIKHghcOb3OB2qJVSdw.jpeg) 
 In the previous Step (DevOps Project — CI/CD -3), we were able to deploy the application on a Docker container successfully.
